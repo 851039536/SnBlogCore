@@ -1,0 +1,6 @@
+@SnBlogCore_HostAddress = http://localhost:5186
+
+GET {{SnBlogCore_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

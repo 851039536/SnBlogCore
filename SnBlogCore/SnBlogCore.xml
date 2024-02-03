@@ -1,0 +1,725 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SnBlogCore</name>
+    </assembly>
+    <members>
+        <member name="T:SnBlogCore.AutoMapper.Mapper.ArticleMapper">
+            <summary>
+            文章对象
+            </summary>
+        </member>
+        <member name="M:SnBlogCore.AutoMapper.Mapper.ArticleMapper.#ctor">
+            <summary>
+            配置构造函数，用来创建关系映射
+            </summary>
+        </member>
+        <member name="T:SnBlogCore.Controllers.Articles.ArticleController">
+            <summary>
+            文档
+            </summary>
+        </member>
+        <member name="M:SnBlogCore.Controllers.Articles.ArticleController.#ctor(System.IServiceProvider)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:SnBlogCore.Controllers.Articles.ArticleController.GetSumAsync">
+            <summary>
+            查询总数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SnBlogCore.Controllers.Articles.ArticleController.GetAllAsync(System.Boolean)">
+            <summary>
+            查询所有 
+            </summary>
+            <param name="cache">是否开启缓存</param>
+            <returns>list-entity</returns>
+        </member>
+        <member name="M:SnBlogCore.Controllers.Articles.ArticleService.#ctor(System.IServiceProvider,AutoMapper.IMapper)">
+             <summary>
+             使用了IServiceProvider接口来获取所需的服务
+            它定义了一个方法GetRequiredService，该方法可以用于获取指定类型的服务
+             </summary>
+             <param name="serviceProvider"></param>
+        </member>
+        <member name="M:SnBlogCore.Controllers.Articles.ArticleService.GetArticleCountAsync(System.Linq.Expressions.Expression{System.Func{SnBlogCore.models.Article,System.Boolean}})">
+            <summary>
+            获取文章的数量
+            </summary>
+            <param name="predicate">筛选文章的条件</param>
+            <returns>返回文章的数量</returns>
+        </member>
+        <member name="T:SnBlogCore.Controllers.Articles.IArticleService">
+            <summary>
+            文章接口
+            </summary>
+        </member>
+        <member name="M:SnBlogCore.Controllers.Articles.IArticleService.GetSumAsync">
+            <summary>
+            查询总数 
+            </summary>
+            <param name="identity">所有:0|分类:1|标签:2|用户3</param>
+            <param name="type">条件</param>
+            <param name="cache">缓存</param>
+            <returns>int</returns>
+        </member>
+        <member name="M:SnBlogCore.Controllers.Articles.IArticleService.GetAllAsync(System.Boolean)">
+            <summary>
+            查询所有
+            </summary>
+            <param name="cache">缓存</param>
+        </member>
+        <member name="P:SnBlogCore.models.Article.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Article.Name">
+            <summary>
+            标题 
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Article.Sketch">
+            <summary>
+            内容简述
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Article.Text">
+            <summary>
+            博客内容
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Article.Read">
+            <summary>
+            阅读次数
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Article.Give">
+            <summary>
+            点赞
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Article.Img">
+            <summary>
+            图片
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Article.CommentId">
+            <summary>
+            评论
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Article.TagId">
+            <summary>
+            标签外键
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Article.TypeId">
+            <summary>
+            分类外键
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Article.UserId">
+            <summary>
+            用户外键id
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Article.TimeCreate">
+            <summary>
+            发表时间
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Article.TimeModified">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.ArticleTag.Name">
+            <summary>
+            标签名称
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.ArticleTag.Description">
+            <summary>
+            标签描述
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.ArticleType.Name">
+            <summary>
+            分类名称
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.ArticleType.Description">
+            <summary>
+            分类描述
+            </summary>
+        </member>
+        <member name="T:SnBlogCore.models.Diary">
+            <summary>
+            日记表
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Diary.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Diary.Name">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Diary.Text">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Diary.Img">
+            <summary>
+            图片
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Diary.Read">
+            <summary>
+            阅读数
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Diary.Give">
+            <summary>
+            点赞
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Diary.UserId">
+            <summary>
+            作者
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Diary.CommentId">
+            <summary>
+            评论
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Diary.TypeId">
+            <summary>
+            分类
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Diary.TimeCreate">
+            <summary>
+            时间
+            </summary>
+        </member>
+        <member name="T:SnBlogCore.models.DiaryType">
+            <summary>
+            日记分类
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Interface.Name">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Interface.Path">
+            <summary>
+            路径
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Interface.TypeId">
+            <summary>
+            类别
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Interface.UserId">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Interface.Identity">
+            <summary>
+            显示隐藏
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Navigation.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Navigation.Name">
+            <summary>
+            导航标题
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Navigation.Describe">
+            <summary>
+            标题描述
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Navigation.Img">
+            <summary>
+            图片路径
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Navigation.Url">
+            <summary>
+            链接路径
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Navigation.TypeId">
+            <summary>
+            分类
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Navigation.UserId">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.NavigationType.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.NavigationType.Name">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="T:SnBlogCore.models.Photo">
+            <summary>
+            图册
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Photo.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Photo.Path">
+            <summary>
+            路径
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Photo.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Photo.Read">
+            <summary>
+            阅读
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Photo.Give">
+            <summary>
+            热度
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Photo.Tag">
+            <summary>
+            标签
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Photo.TypeId">
+            <summary>
+            分类
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Photo.UserId">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Photo.TimeCreate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.PhotoGallery.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.PhotoGallery.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnComment.Id">
+            <summary>
+            评论主键
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnComment.UserId">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnComment.Give">
+            <summary>
+            点赞数
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnComment.Text">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnComment.TimeCreate">
+            <summary>
+            评论日期
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnComment.TimeModified">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="T:SnBlogCore.models.SnippetTypeSub">
+            <summary>
+            片段分类下的子类
+            </summary>
+        </member>
+        <member name="T:SnBlogCore.models.SnippetVersion">
+            <summary>
+            片段的历史版本表
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnippetVersion.Name">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnippetVersion.Text">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnippetVersion.SnippetId">
+            <summary>
+            关联片段id
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnippetVersion.Count">
+            <summary>
+            版本变更次数
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnippetVersion.TimeCreate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnPicture.Name">
+            <summary>
+            图床名
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnPicture.ImgUrl">
+            <summary>
+            图片地址
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnPicture.TypeId">
+            <summary>
+            分类
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnPictureType.Name">
+            <summary>
+            分类名称
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnSetblog.Name">
+            <summary>
+            设置的内容名称
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnSetblog.RouterUrl">
+            <summary>
+            路由链接
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnSetblog.Isopen">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnSetblog.TypeId">
+            <summary>
+            分类
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnSetblog.UserId">
+            <summary>
+            关联用户表
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnSoftware.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnSoftware.Img">
+            <summary>
+            图片路径
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnSoftware.TypeId">
+            <summary>
+            分类
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnSoftware.CommentId">
+            <summary>
+            评论
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnSoftware.TimeCreate">
+            <summary>
+            时间
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnTalk.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnTalk.Describe">
+            <summary>
+            简介
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnTalk.Text">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnTalk.Read">
+            <summary>
+            阅读量
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnTalk.Give">
+            <summary>
+            点赞
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnTalk.CommentId">
+            <summary>
+            评论
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnTalk.UserId">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnTalk.TimeCreate">
+            <summary>
+            发表时间
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnUserFriend.UserId">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnUserFriend.UserFriendsId">
+            <summary>
+            好友id
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnUserFriend.UserNote">
+            <summary>
+            好友备注
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.SnUserFriend.UserStatus">
+            <summary>
+            好友状态
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.User.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.User.Ip">
+            <summary>
+            ip地址
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.User.Name">
+            <summary>
+            账号
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.User.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.User.Pwd">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.User.Photo">
+            <summary>
+            头像
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.User.TimeCreate">
+            <summary>
+            注册时间
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.User.TimeModified">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.User.Nickname">
+            <summary>
+            称呼
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.User.Brief">
+            <summary>
+            简介
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.UserTalk.Text">
+            <summary>
+            说说内容
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.UserTalk.TimeCreate">
+            <summary>
+            发表时间
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.UserTalk.CommentId">
+            <summary>
+            评论id
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Video.Name">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Video.Img">
+            <summary>
+            图片
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Video.Url">
+            <summary>
+            链接路径
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Video.TypeId">
+            <summary>
+            分类
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.models.Video.TimeCreate">
+            <summary>
+            时间
+            </summary>
+        </member>
+        <member name="T:SnBlogCore.Swagger.ApiGroupAttribute">
+            <summary>
+            分组接口特性
+            </summary>
+        </member>
+        <member name="M:SnBlogCore.Swagger.ApiGroupAttribute.#ctor(SnBlogCore.Swagger.ApiGroupNames)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="P:SnBlogCore.Swagger.ApiGroupAttribute.GroupName">
+            <summary>
+            分组名称
+            </summary>
+        </member>
+        <member name="T:SnBlogCore.Swagger.ApiGroupNames">
+            <summary>
+            接口分组枚举
+            </summary>
+        </member>
+        <member name="F:SnBlogCore.Swagger.ApiGroupNames.Login">
+            <summary>
+            登录相关接口
+            </summary>
+        </member>
+        <member name="F:SnBlogCore.Swagger.ApiGroupNames.v1">
+            <summary>
+            v1版本
+            </summary>
+        </member>
+        <member name="T:SnBlogCore.Swagger.GroupInfoAttribute">
+            <summary>
+            分组信息特性
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.Swagger.GroupInfoAttribute.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.Swagger.GroupInfoAttribute.Version">
+            <summary>
+            版本
+            </summary>
+        </member>
+        <member name="P:SnBlogCore.Swagger.GroupInfoAttribute.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="T:Snblog.Controllers.UserController">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="M:Snblog.Controllers.UserController.#ctor(SnBlogCore.models.SnblogContext,AuthenticationTest.JwtHelper)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="coreDbContext"></param>
+            <param name="jwtModel"></param>
+        </member>
+        <member name="M:Snblog.Controllers.UserController.Login(System.String,System.String)">
+            <summary>
+            登录
+            </summary>
+            <param name="user">用户</param>
+            <param name="pwd">密码</param>
+            <returns>Nickname,token,id,name</returns>
+        </member>
+        <member name="T:AuthenticationTest.JwtHelper">
+            <summary>
+            生成 JWT 的 Token
+            </summary>
+        </member>
+        <member name="M:AuthenticationTest.JwtHelper.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:AuthenticationTest.JwtHelper.CreateToken(System.String)">
+            <summary>
+            根据用户名称生成token
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,12 @@
+D:\sw\netCore\SnBlogCore\CommonLibrary\bin\Debug\net8.0\CommonLibrary.deps.json
+D:\sw\netCore\SnBlogCore\CommonLibrary\bin\Debug\net8.0\CommonLibrary.dll
+D:\sw\netCore\SnBlogCore\CommonLibrary\bin\Debug\net8.0\CommonLibrary.pdb
+D:\sw\netCore\SnBlogCore\CommonLibrary\obj\Debug\net8.0\CommonLibrary.csproj.AssemblyReference.cache
+D:\sw\netCore\SnBlogCore\CommonLibrary\obj\Debug\net8.0\CommonLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\sw\netCore\SnBlogCore\CommonLibrary\obj\Debug\net8.0\CommonLibrary.AssemblyInfoInputs.cache
+D:\sw\netCore\SnBlogCore\CommonLibrary\obj\Debug\net8.0\CommonLibrary.AssemblyInfo.cs
+D:\sw\netCore\SnBlogCore\CommonLibrary\obj\Debug\net8.0\CommonLibrary.csproj.CoreCompileInputs.cache
+D:\sw\netCore\SnBlogCore\CommonLibrary\obj\Debug\net8.0\CommonLibrary.dll
+D:\sw\netCore\SnBlogCore\CommonLibrary\obj\Debug\net8.0\refint\CommonLibrary.dll
+D:\sw\netCore\SnBlogCore\CommonLibrary\obj\Debug\net8.0\CommonLibrary.pdb
+D:\sw\netCore\SnBlogCore\CommonLibrary\obj\Debug\net8.0\ref\CommonLibrary.dll

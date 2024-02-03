@@ -1,0 +1,288 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\sw\\netCore\\SnBlogCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|d:\\sw\\netcore\\snblogcore\\snblogcore\\controllers\\test\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|solutionrelative:snblogcore\\controllers\\test\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E259752-43F2-4202-ADAD-AEF66846EC05}|CommonLibrary\\CommonLibrary.csproj|d:\\sw\\netcore\\snblogcore\\commonlibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E259752-43F2-4202-ADAD-AEF66846EC05}|CommonLibrary\\CommonLibrary.csproj|solutionrelative:commonlibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E259752-43F2-4202-ADAD-AEF66846EC05}|CommonLibrary\\CommonLibrary.csproj|d:\\sw\\netcore\\snblogcore\\commonlibrary\\imoduleinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E259752-43F2-4202-ADAD-AEF66846EC05}|CommonLibrary\\CommonLibrary.csproj|solutionrelative:commonlibrary\\imoduleinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E259752-43F2-4202-ADAD-AEF66846EC05}|CommonLibrary\\CommonLibrary.csproj|d:\\sw\\netcore\\snblogcore\\commonlibrary\\modulinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E259752-43F2-4202-ADAD-AEF66846EC05}|CommonLibrary\\CommonLibrary.csproj|solutionrelative:commonlibrary\\modulinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|d:\\sw\\netcore\\snblogcore\\snblogcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|solutionrelative:snblogcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|d:\\sw\\netcore\\snblogcore\\snblogcore\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|solutionrelative:snblogcore\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|d:\\sw\\netcore\\snblogcore\\snblogcore\\snblogcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|solutionrelative:snblogcore\\snblogcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|d:\\sw\\netcore\\snblogcore\\snblogcore\\controllers\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|solutionrelative:snblogcore\\controllers\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|d:\\sw\\netcore\\snblogcore\\snblogcore\\controllers\\articles\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|solutionrelative:snblogcore\\controllers\\articles\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|d:\\sw\\netcore\\snblogcore\\snblogcore\\controllers\\articles\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|solutionrelative:snblogcore\\controllers\\articles\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|d:\\sw\\netcore\\snblogcore\\snblogcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|solutionrelative:snblogcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|d:\\sw\\netcore\\snblogcore\\snblogcore\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|solutionrelative:snblogcore\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|d:\\sw\\netcore\\snblogcore\\snblogcore\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|solutionrelative:snblogcore\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ch190006\\AppData\\Roaming\\Microsoft\\UserSecrets\\50550de1-b685-4291-90a5-45e004c5171a\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|d:\\sw\\netcore\\snblogcore\\snblogcore\\validator\\articlevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BCEB52E-C20F-4C4F-A8E3-1CB491165329}|SnBlogCore\\SnBlogCore.csproj|solutionrelative:snblogcore\\validator\\articlevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "SnBlogCore\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "SnBlogCore\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-29T06:24:47.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\sw\\netCore\\SnBlogCore\\CommonLibrary\\Class1.cs",
+              "RelativeDocumentMoniker": "CommonLibrary\\Class1.cs",
+              "ToolTip": "D:\\sw\\netCore\\SnBlogCore\\CommonLibrary\\Class1.cs",
+              "RelativeToolTip": "CommonLibrary\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-29T06:09:55.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModulInit.cs",
+              "DocumentMoniker": "D:\\sw\\netCore\\SnBlogCore\\CommonLibrary\\ModulInit.cs",
+              "RelativeDocumentMoniker": "CommonLibrary\\ModulInit.cs",
+              "ToolTip": "D:\\sw\\netCore\\SnBlogCore\\CommonLibrary\\ModulInit.cs",
+              "RelativeToolTip": "CommonLibrary\\ModulInit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-29T06:08:40.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IModuleInit.cs",
+              "DocumentMoniker": "D:\\sw\\netCore\\SnBlogCore\\CommonLibrary\\IModuleInit.cs",
+              "RelativeDocumentMoniker": "CommonLibrary\\IModuleInit.cs",
+              "ToolTip": "D:\\sw\\netCore\\SnBlogCore\\CommonLibrary\\IModuleInit.cs",
+              "RelativeToolTip": "CommonLibrary\\IModuleInit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-29T06:03:00.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\Controllers\\Test\\TestController.cs",
+              "RelativeDocumentMoniker": "SnBlogCore\\Controllers\\Test\\TestController.cs",
+              "ToolTip": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\Controllers\\Test\\TestController.cs",
+              "RelativeToolTip": "SnBlogCore\\Controllers\\Test\\TestController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwC0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-29T05:49:24.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\Controllers\\Users\\UserController.cs",
+              "RelativeDocumentMoniker": "SnBlogCore\\Controllers\\Users\\UserController.cs",
+              "ToolTip": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\Controllers\\Users\\UserController.cs",
+              "RelativeToolTip": "SnBlogCore\\Controllers\\Users\\UserController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-29T05:48:53.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ArticleService.cs",
+              "DocumentMoniker": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\Controllers\\Articles\\ArticleService.cs",
+              "RelativeDocumentMoniker": "SnBlogCore\\Controllers\\Articles\\ArticleService.cs",
+              "ToolTip": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\Controllers\\Articles\\ArticleService.cs",
+              "RelativeToolTip": "SnBlogCore\\Controllers\\Articles\\ArticleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-29T05:48:49.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SnBlogCore",
+              "DocumentMoniker": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\SnBlogCore.csproj",
+              "RelativeDocumentMoniker": "SnBlogCore\\SnBlogCore.csproj",
+              "ToolTip": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\SnBlogCore.csproj",
+              "RelativeToolTip": "SnBlogCore\\SnBlogCore.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-01-29T03:28:07.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\ch190006\\AppData\\Roaming\\Microsoft\\UserSecrets\\50550de1-b685-4291-90a5-45e004c5171a\\secrets.json",
+              "ToolTip": "C:\\Users\\ch190006\\AppData\\Roaming\\Microsoft\\UserSecrets\\50550de1-b685-4291-90a5-45e004c5171a\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-01-29T03:25:14.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "SnBlogCore\\appsettings.Production.json",
+              "ToolTip": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\appsettings.Production.json",
+              "RelativeToolTip": "SnBlogCore\\appsettings.Production.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-01-29T03:22:52.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SnBlogCore\\appsettings.Development.json",
+              "ToolTip": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\appsettings.Development.json",
+              "RelativeToolTip": "SnBlogCore\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-01-29T03:22:43.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\appsettings.json",
+              "RelativeDocumentMoniker": "SnBlogCore\\appsettings.json",
+              "ToolTip": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\appsettings.json",
+              "RelativeToolTip": "SnBlogCore\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-01-29T03:22:33.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ArticleController.cs",
+              "DocumentMoniker": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\Controllers\\Articles\\ArticleController.cs",
+              "RelativeDocumentMoniker": "SnBlogCore\\Controllers\\Articles\\ArticleController.cs",
+              "ToolTip": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\Controllers\\Articles\\ArticleController.cs",
+              "RelativeToolTip": "SnBlogCore\\Controllers\\Articles\\ArticleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-25T03:17:14.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\Program.cs",
+              "RelativeDocumentMoniker": "SnBlogCore\\Program.cs",
+              "ToolTip": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\Program.cs",
+              "RelativeToolTip": "SnBlogCore\\Program.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAAKUAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-25T03:15:42.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ArticleValidator.cs",
+              "DocumentMoniker": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\Validator\\ArticleValidator.cs",
+              "RelativeDocumentMoniker": "SnBlogCore\\Validator\\ArticleValidator.cs",
+              "ToolTip": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\Validator\\ArticleValidator.cs",
+              "RelativeToolTip": "SnBlogCore\\Validator\\ArticleValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-25T03:14:01.563Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
