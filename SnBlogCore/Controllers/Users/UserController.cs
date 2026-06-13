@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SnBlogCore.Jwt;
 using SnBlogCore.models;
-using AuthenticationTest;
 using SnBlogCore.Swagger;
 
 namespace Snblog.Controllers
@@ -13,7 +13,7 @@ namespace Snblog.Controllers
     public class UserController : ControllerBase
     {
         private readonly SnblogContext _coreDbContext;
-        private readonly JwtHelper _jwtModel;
+        private readonly JwtHelper _jwt;
 
         /// <summary>
         /// 构造函数
@@ -23,7 +23,7 @@ namespace Snblog.Controllers
         public UserController(SnblogContext coreDbContext,JwtHelper jwtModel)
         {
             _coreDbContext = coreDbContext;
-            _jwtModel = jwtModel;
+            _jwt = jwtModel;
         }
 
         /// <summary>
@@ -47,7 +47,7 @@ namespace Snblog.Controllers
             if (ret == null) return BadRequest("用户或密码错误");
 
             // 生成token
-            string token = _jwtModel.CreateToken(user);
+            string token = _jwt.CreateToken(user);
             // 返回用户信息和token
             return Ok(new { ret.Nickname,Token = token,ret.Id,ret.Name });
         }

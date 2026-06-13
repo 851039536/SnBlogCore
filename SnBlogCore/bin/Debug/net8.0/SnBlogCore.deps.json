@@ -699,7 +699,10 @@
           "Microsoft.Extensions.DependencyInjection": "8.0.0"
         },
         "runtime": {
-          "CommonLibrary.dll": {}
+          "CommonLibrary.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

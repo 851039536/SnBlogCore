@@ -24,7 +24,6 @@ D:\sw\netCore\SnBlogCore\SnBlogCore\obj\Debug\net8.0\staticwebassets\msbuild.bui
 D:\sw\netCore\SnBlogCore\SnBlogCore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SnBlogCore.props
 D:\sw\netCore\SnBlogCore\SnBlogCore\obj\Debug\net8.0\staticwebassets.pack.json
 D:\sw\netCore\SnBlogCore\SnBlogCore\obj\Debug\net8.0\scopedcss\bundle\SnBlogCore.styles.css
-D:\sw\netCore\SnBlogCore\SnBlogCore\obj\Debug\net8.0\SnBlogCore.csproj.CopyComplete
 D:\sw\netCore\SnBlogCore\SnBlogCore\obj\Debug\net8.0\SnBlogCore.dll
 D:\sw\netCore\SnBlogCore\SnBlogCore\obj\Debug\net8.0\refint\SnBlogCore.dll
 D:\sw\netCore\SnBlogCore\SnBlogCore\obj\Debug\net8.0\SnBlogCore.pdb
@@ -120,3 +119,7 @@ D:\sw\netCore\SnBlogCore\SnBlogCore\bin\Debug\net8.0\FluentValidation.Dependency
 D:\sw\netCore\SnBlogCore\SnBlogCore\bin\Debug\net8.0\appsettings.Production.json
 D:\sw\netCore\SnBlogCore\SnBlogCore\bin\Debug\net8.0\CommonLibrary.dll
 D:\sw\netCore\SnBlogCore\SnBlogCore\bin\Debug\net8.0\CommonLibrary.pdb
+D:\sw\netCore\SnBlogCore\SnBlogCore\obj\Debug\net8.0\SnBlogCore.csproj.Up2Date
+D:\sw\netCore\SnBlogCore\SnBlogCore\bin\Debug\net8.0\SnBlogCore.staticwebassets.endpoints.json
+D:\sw\netCore\SnBlogCore\SnBlogCore\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\sw\netCore\SnBlogCore\SnBlogCore\obj\Debug\net8.0\staticwebassets\msbuild.SnBlogCore.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

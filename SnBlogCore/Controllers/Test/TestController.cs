@@ -5,7 +5,7 @@ using SnBlogCore.models;
 namespace SnBlogCore.Controllers.Uploading;
 
 /// <summary>
-/// 
+///
 /// </summary>
 [ApiController]
 [Route("test")]
@@ -20,7 +20,7 @@ public class TestController : ControllerBase
     /// <param name="coreDbContext"></param>
     /// <param name="env"></param>
     /// <param name="configuration"></param>
-    public TestController(SnblogContext coreDbContext,IWebHostEnvironment env)
+    public TestController(SnblogContext coreDbContext, IWebHostEnvironment env)
     {
         _coreDbContext = coreDbContext;
         _env = env;
@@ -36,7 +36,6 @@ public class TestController : ControllerBase
         string t = configuration["test"];
         return $"test:{t}";
     }
-
 
     [HttpPost("TestModulInit")]
     public string TestModulInit([FromServices] Class1 class1)

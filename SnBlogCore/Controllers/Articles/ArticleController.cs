@@ -19,6 +19,7 @@ public class ArticleController : ControllerBase
     private readonly IArticleService _service;
 
     private readonly IValidator<Article> _validator;
+    
     #region 构造函数
 
     /// <summary>

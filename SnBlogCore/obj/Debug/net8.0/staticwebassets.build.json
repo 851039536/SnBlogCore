@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "ZFxQn4c5zrkLzPtstIFN2tXG+z1HMbpKnlDSty9jnTM=",
+  "Hash": "SvyqaNLg8OBq+3UN/+YUG3GAaXe7zXVzVCVNAa2O6ME=",
   "Source": "SnBlogCore",
   "BasePath": "_content/SnBlogCore",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
