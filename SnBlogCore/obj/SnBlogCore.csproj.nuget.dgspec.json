@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\SnBlogCore.csproj": {}
+    "E:\\.NET\\ASP.NET\\SnBlogCore\\SnBlogCore\\SnBlogCore.csproj": {}
   },
   "projects": {
-    "D:\\sw\\netCore\\SnBlogCore\\CommonLibrary\\CommonLibrary.csproj": {
+    "E:\\.NET\\ASP.NET\\SnBlogCore\\CommonLibrary\\CommonLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\sw\\netCore\\SnBlogCore\\CommonLibrary\\CommonLibrary.csproj",
+        "projectUniqueName": "E:\\.NET\\ASP.NET\\SnBlogCore\\CommonLibrary\\CommonLibrary.csproj",
         "projectName": "CommonLibrary",
-        "projectPath": "D:\\sw\\netCore\\SnBlogCore\\CommonLibrary\\CommonLibrary.csproj",
+        "projectPath": "E:\\.NET\\ASP.NET\\SnBlogCore\\CommonLibrary\\CommonLibrary.csproj",
         "packagesPath": "D:\\Nuget\\.nuget\\packages",
-        "outputPath": "D:\\sw\\netCore\\SnBlogCore\\CommonLibrary\\obj\\",
+        "outputPath": "E:\\.NET\\ASP.NET\\SnBlogCore\\CommonLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\2022\\Shared\\NuGetPackages"
@@ -43,9 +43,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -72,18 +72,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\SnBlogCore.csproj": {
+    "E:\\.NET\\ASP.NET\\SnBlogCore\\SnBlogCore\\SnBlogCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\SnBlogCore.csproj",
+        "projectUniqueName": "E:\\.NET\\ASP.NET\\SnBlogCore\\SnBlogCore\\SnBlogCore.csproj",
         "projectName": "SnBlogCore",
-        "projectPath": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\SnBlogCore.csproj",
+        "projectPath": "E:\\.NET\\ASP.NET\\SnBlogCore\\SnBlogCore\\SnBlogCore.csproj",
         "packagesPath": "D:\\Nuget\\.nuget\\packages",
-        "outputPath": "D:\\sw\\netCore\\SnBlogCore\\SnBlogCore\\obj\\",
+        "outputPath": "E:\\.NET\\ASP.NET\\SnBlogCore\\SnBlogCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\2022\\Shared\\NuGetPackages"
@@ -105,8 +105,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\sw\\netCore\\SnBlogCore\\CommonLibrary\\CommonLibrary.csproj": {
-                "projectPath": "D:\\sw\\netCore\\SnBlogCore\\CommonLibrary\\CommonLibrary.csproj"
+              "E:\\.NET\\ASP.NET\\SnBlogCore\\CommonLibrary\\CommonLibrary.csproj": {
+                "projectPath": "E:\\.NET\\ASP.NET\\SnBlogCore\\CommonLibrary\\CommonLibrary.csproj"
               }
             }
           }
@@ -119,9 +119,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -177,7 +177,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

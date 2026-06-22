@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "SvyqaNLg8OBq+3UN/+YUG3GAaXe7zXVzVCVNAa2O6ME=",
-  "Source": "SnBlogCore",
-  "BasePath": "_content/SnBlogCore",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"Dbxf9tH/djxpK9WuAf8+iEm1e1WP62ljg2kPR/cyl5I=","Source":"SnBlogCore","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
